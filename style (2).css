@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Outfit&family=Roboto&family=Varela+Round&display=swap');
+body{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    height: 100vh;
+    background-color: cadetblue;
+}
+.title{
+    text-align: center;
+    color: white;
+    font-size: 55px;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: indigo;
+    border: 3px solid gold;
+    border-radius: 5px;
+    width: 80vw;
+    margin: 20px auto;
+}
+
+.btn-indigo{
+    /* margin-top: 15px; */
+    text-decoration: none;
+    background-color: indigo;
+    color: white;
+    padding: 10px 16px 10px 16px;
+    border-radius: 44px;
+    border: 1px solid black;
+    margin-bottom: 7px;
+}
+
+.btn-indigo:hover{
+    background-color: gray;
+    
+}
+
+.text-container{
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+    color: black;   
+    border: 3px solid darkmagenta;
+    border-radius: 8px;
+    background-color: gold;
+    width: 50vw;
+    /* height: 35vh; */
+    margin: 10px auto;
+    
+}
+
